@@ -1,0 +1,10 @@
+<div class="container mt-5">
+
+    <h1>Ciclo de Vida de un componente</h1>
+    <hr>
+
+      <div class="alert alert-success m-2" *ngFor="let cycle of cycles; let i = index" role="alert">
+       <strong>{{ i }} - {{ cycle.title }}:</strong> {{ cycle.description }}
+      </div>
+
+</div>
